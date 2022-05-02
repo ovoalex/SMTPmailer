@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>571</width>
+    <height>270</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CS3800 SMTP Mailer</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>bluemail.ico</normaloff>bluemail.ico</iconset>
+  </property>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>551</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <attribute name="headerDefaultSectionSize">
+    <number>50</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Weeks</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>changes</string>
+    </property>
+   </column>
+   <item>
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="text">
+     <string>Attachment/CC chain mail</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2</string>
+    </property>
+    <property name="text">
+     <string>New Bar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1</string>
+    </property>
+    <property name="text">
+     <string>Send Mail</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>14</y>
+     <width>481</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
